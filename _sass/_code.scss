@@ -3,14 +3,13 @@
 // Inline and block-level code snippets. Includes tweaks to syntax highlighted
 // snippets from Pygments/Rouge and Gist embeds.
 
-code,
-pre {
+code, pre {
   font-family: var(--code-font);
 }
 
-code {
-  font-size: 90%;
-}
+// code {
+//   font-size: 90%;
+// }
 
 pre {
   display: block;
